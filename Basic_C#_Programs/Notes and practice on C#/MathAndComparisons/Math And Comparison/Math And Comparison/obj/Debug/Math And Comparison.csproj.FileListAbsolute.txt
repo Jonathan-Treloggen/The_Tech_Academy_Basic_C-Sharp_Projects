@@ -1,0 +1,7 @@
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\MathAndComparisons\Math And Comparison\Math And Comparison\bin\Debug\Math And Comparison.exe.config
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\MathAndComparisons\Math And Comparison\Math And Comparison\bin\Debug\Math And Comparison.exe
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\MathAndComparisons\Math And Comparison\Math And Comparison\bin\Debug\Math And Comparison.pdb
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\MathAndComparisons\Math And Comparison\Math And Comparison\obj\Debug\Math And Comparison.csproj.CoreCompileInputs.cache
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\MathAndComparisons\Math And Comparison\Math And Comparison\obj\Debug\Math And Comparison.exe
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\MathAndComparisons\Math And Comparison\Math And Comparison\obj\Debug\Math And Comparison.pdb
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\MathAndComparisons\Math And Comparison\Math And Comparison\obj\Debug\Math And Comparison.csprojAssemblyReference.cache

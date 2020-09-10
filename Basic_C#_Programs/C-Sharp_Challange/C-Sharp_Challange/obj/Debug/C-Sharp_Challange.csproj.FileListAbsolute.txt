@@ -1,0 +1,7 @@
+C:\Users\jonat\source\repos\C-Sharp_Challange\C-Sharp_Challange\bin\Debug\C-Sharp_Challange.exe.config
+C:\Users\jonat\source\repos\C-Sharp_Challange\C-Sharp_Challange\bin\Debug\C-Sharp_Challange.exe
+C:\Users\jonat\source\repos\C-Sharp_Challange\C-Sharp_Challange\bin\Debug\C-Sharp_Challange.pdb
+C:\Users\jonat\source\repos\C-Sharp_Challange\C-Sharp_Challange\obj\Debug\C-Sharp_Challange.csprojAssemblyReference.cache
+C:\Users\jonat\source\repos\C-Sharp_Challange\C-Sharp_Challange\obj\Debug\C-Sharp_Challange.csproj.CoreCompileInputs.cache
+C:\Users\jonat\source\repos\C-Sharp_Challange\C-Sharp_Challange\obj\Debug\C-Sharp_Challange.exe
+C:\Users\jonat\source\repos\C-Sharp_Challange\C-Sharp_Challange\obj\Debug\C-Sharp_Challange.pdb
