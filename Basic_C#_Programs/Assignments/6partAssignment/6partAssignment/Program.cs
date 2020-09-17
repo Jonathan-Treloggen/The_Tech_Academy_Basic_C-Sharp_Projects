@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace _6partAssignment
 {
@@ -10,9 +12,9 @@ namespace _6partAssignment
         {
             // PART ONE
             // ARRAY
-            string[] names = { "Jon", "Megan", "Cody", "Specer" };
+            string[] names = { "jon", "megan", "cody", "specer" };
 
-            Console.WriteLine("What is you dream job?");
+            Console.WriteLine("what is you dream job?");
 
             // PERSON ENTERS NAME
             string dreamJob = Console.ReadLine();
@@ -20,7 +22,12 @@ namespace _6partAssignment
             // LIST OUT ALL THE NAMES IN ARRAY
             for (int i = 0; i < names.Length; i++)
             {
-                Console.WriteLine("\n" + names[i] + "'s a " + dreamJob + ".");
+                names[i] = names[i] + " " + dreamJob;
+            }
+
+            for (int i = 0; i < names.Length; i++)
+            {
+                Console.WriteLine("\n" + names[i] + ".");
             }
 
             Console.ReadLine();
@@ -36,7 +43,7 @@ namespace _6partAssignment
             //}
             //Console.ReadLine();
 
-            // FIXED LOOP + PART 3
+            //// FIXED LOOP + PART 3
             for (int infiniteFixed = 0; infiniteFixed < 11; infiniteFixed++)
             {
                 Console.WriteLine(infiniteFixed);
@@ -53,18 +60,19 @@ namespace _6partAssignment
             List<string> console = new List<string>() { "Xbox", "Playstation", "Switch", "PC/Mac" };
             Console.WriteLine("Which console do you prefer " + console[0] + ", " + console[1] + ", " + console[2] + " or " + console[3] + "? Please type is exactly as typed please.");
             string choice = Console.ReadLine();
-
-            foreach (string name in console)
+            bool itsHere = false;
+            for (int i = 0; i < console.Count; i++)
             {
-                if (name == choice)
+                if (console[i] == choice)
                 {
-                    Console.WriteLine("\nI love playing games on the " + name + " as well!");
-                }
-                else
-                {
-                    Console.WriteLine("What you typed was either not on the list or was not typed correctly");
+                    Console.WriteLine("Index number is {0}", i);
+                    itsHere = true;
                     break;
                 }
+            }
+            if (!itsHere)
+            {
+                Console.WriteLine("Entery is not on list.");
             }
             Console.ReadLine();
 
@@ -72,29 +80,36 @@ namespace _6partAssignment
             List<string> food = new List<string>() { "PB&J", "Grilled cheese", "Trukey", "PB&J" };
             Console.WriteLine("Which of these sandwiches do you like the most? " + food[0] + ", " + food[1] + ", " + food[2] + " or " + food[3]);
             string bestSandwich = Console.ReadLine();
-
-            foreach (string sandwich in food)
+            bool found = false;
+            for (int i = 0; i < food.Count; i++)
             {
-                if (sandwich == bestSandwich)
+                if (food[i] == bestSandwich)
                 {
-                    Console.WriteLine("Thats one of my favorite sandwich.");
+                    Console.WriteLine("Index of your choice is {0}", i);
+                    found = true;
                 }
-                else
-                {
-                    Console.WriteLine("Come on... please follow the rules.");
-                    break;
-                }
+            }
+            if (!found)
+            {
+                Console.WriteLine("Your choice is not on the list.");
             }
             Console.ReadLine();
 
             // PART 6
             List<string> favDrinks = new List<string>() { "OJ", "Water", "Milk", "Eggnog", "Water" };
-
+            List<string> foundList = new List<string>();
             foreach (string drink in favDrinks)
             {
-                Console.WriteLine("I love " + drink);
+                if (foundList.Contains(drink) == false)
+                {
+                    foundList.Add(drink);
+                    Console.WriteLine("{0} it's not on the list yet", drink);
+                }
+                else
+                {
+                    Console.WriteLine("{0} is already on the list", drink);
+                }
             }
-            Console.WriteLine("\nAnd yes, Water is on their twice because it's important.");
             Console.ReadLine();
         }
     }
