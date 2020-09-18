@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace ClassesAndObjects21Game
 {
-    class Program
+    public class Card
     {
-        static void Main(string[] args)
+        public Card()
         {
+            Suit = "Spades";
+            Face = "Two";
         }
+        public string Suit { get; set; }
+        public string Face { get; set; }
     }
 }
