@@ -18,10 +18,19 @@ namespace Method2
             int firstNum = Convert.ToInt32(Console.ReadLine());
 
 
-            Console.WriteLine("Now enter a second number if you'd like if not hit enter.");
-            int secondNum = Convert.ToInt32(Console.ReadLine());
-
-            int answer = twoInt.optionalMethods(firstNum, secondNum);
+            Console.WriteLine("Now enter a second number if you'd like if not, hit enter.");
+            var input = Console.ReadLine();
+            int answer;
+            if (input == "")
+            {
+                answer = twoInt.optionalMethods(firstNum);
+            }
+            else
+            {
+                var secondNum = Convert.ToInt32(input);
+                answer = twoInt.optionalMethods(firstNum, secondNum);
+            }
+            
             Console.WriteLine(answer);
             Console.ReadLine();
         }
