@@ -10,6 +10,8 @@ namespace Method3
     {
         static void Main(string[] args)
         {
+            voidMethod voidMethod = new voidMethod();
+
             Console.WriteLine("Enter a number of you choice to be added to 12 and see if you can" +
                 "\nguess the correct number. (hint it's under 100)");
             int guestNumber = Convert.ToInt32(Console.ReadLine());
