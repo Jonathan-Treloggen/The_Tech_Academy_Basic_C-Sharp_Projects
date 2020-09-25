@@ -14,6 +14,7 @@ namespace ClassesAndObjects21Game
 
         public abstract void Play();
 
+        // VIRTUAL ALLOW YOU TO OVERRIDE AND CUSTOMIZE METHOD IN OTHER CLASS
         public virtual void ListPlayer()
         {
             foreach (string player in Players)

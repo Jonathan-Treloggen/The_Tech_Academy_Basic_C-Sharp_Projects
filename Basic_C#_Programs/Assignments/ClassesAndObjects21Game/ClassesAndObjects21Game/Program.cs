@@ -15,6 +15,7 @@ namespace ClassesAndObjects21Game
             game.Players = new List<string>() { "Jon", "Megan", "Cody" };
             game.ListPlayer();
             Console.ReadLine();
+
             // DATA TYPE DECK WITH VARIABLE NAMED deck THIS ALSO INSTANTIATES THE OBJECT
             Deck deck = new Deck(); 
             deck.Shuffle(8);
@@ -26,14 +27,5 @@ namespace ClassesAndObjects21Game
             Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
         }       
-
-        //public static Deck Shuffle(Deck deck, int times)
-        //{
-        //    for (int i = 0; i < times; i++)
-        //    {
-        //        deck = Shuffle(deck);
-        //    }
-        //    return deck;
-        //}
     }
 }
