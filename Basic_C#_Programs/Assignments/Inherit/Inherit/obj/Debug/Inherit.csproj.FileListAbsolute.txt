@@ -1,0 +1,7 @@
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\Inherit\Inherit\bin\Debug\Inherit.exe.config
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\Inherit\Inherit\bin\Debug\Inherit.exe
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\Inherit\Inherit\bin\Debug\Inherit.pdb
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\Inherit\Inherit\obj\Debug\Inherit.csprojAssemblyReference.cache
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\Inherit\Inherit\obj\Debug\Inherit.csproj.CoreCompileInputs.cache
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\Inherit\Inherit\obj\Debug\Inherit.exe
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\Inherit\Inherit\obj\Debug\Inherit.pdb

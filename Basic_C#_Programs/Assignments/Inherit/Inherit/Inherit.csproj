@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{35D1D0D6-8427-48BC-BAB4-27A13CBB13C5}</ProjectGuid>
+    <ProjectGuid>{51D747C7-3DA9-4307-95F8-B53F7F7CEAC6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClassesAndObjects21Game</RootNamespace>
-    <AssemblyName>ClassesAndObjects21Game</AssemblyName>
+    <RootNamespace>Inherit</RootNamespace>
+    <AssemblyName>Inherit</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Card.cs" />
-    <Compile Include="Deck.cs" />
-    <Compile Include="Game.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwentyOneGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

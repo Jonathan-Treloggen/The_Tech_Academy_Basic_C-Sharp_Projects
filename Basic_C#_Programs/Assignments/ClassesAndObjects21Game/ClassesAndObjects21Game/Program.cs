@@ -11,6 +11,7 @@ namespace ClassesAndObjects21Game
     {
         static void Main(string[] args)
         {
+
             // DATA TYPE DECK WITH VARIABLE NAMED deck THIS ALSO INSTANTIATES THE OBJECT
             Deck deck = new Deck(); 
             deck.Shuffle(8);
