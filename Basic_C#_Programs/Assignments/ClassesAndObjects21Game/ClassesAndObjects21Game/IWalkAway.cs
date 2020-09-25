@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ClassesAndObjects21Game
 {
+    // INTERFACES ARE ALWAYS PUBLIC
     interface IWalkAway
-    {
-        void IWalkAway(Player player);
+    {   
+        void WalkAway(Player player);
     }
 }

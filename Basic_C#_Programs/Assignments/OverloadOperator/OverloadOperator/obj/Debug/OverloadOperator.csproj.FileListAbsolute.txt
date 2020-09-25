@@ -1,0 +1,7 @@
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\OverloadOperator\OverloadOperator\obj\Debug\OverloadOperator.csprojAssemblyReference.cache
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\OverloadOperator\OverloadOperator\obj\Debug\OverloadOperator.csproj.CoreCompileInputs.cache
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\OverloadOperator\OverloadOperator\bin\Debug\OverloadOperator.exe.config
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\OverloadOperator\OverloadOperator\bin\Debug\OverloadOperator.exe
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\OverloadOperator\OverloadOperator\bin\Debug\OverloadOperator.pdb
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\OverloadOperator\OverloadOperator\obj\Debug\OverloadOperator.exe
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\OverloadOperator\OverloadOperator\obj\Debug\OverloadOperator.pdb
