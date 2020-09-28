@@ -7,20 +7,44 @@ using System.Threading.Tasks;
 
 namespace OverloadOperator
 {
-    public class Employee 
+    public class Employee
     {
-        public string FirstName { get; set; }
-        public string ID { get; set; }
+        private string firstName;
+        private int employeeID;
 
-
-        public static bool operator ==(Employee firstName, Employee id)
+        public Employee(int employeeID, string firstName)
         {
-            return (firstName == id);
+            this.employeeID = employeeID;
+            this.firstName = firstName;
         }
 
-        public static bool operator !=(Employee firstName, Employee id)
+        public void display()
         {
-            return !(firstName == id);
+            Console.WriteLine("Employee number: " + employeeID + " first name: " + firstName);
+        }
+
+        public static bool operator ==(Employee employee, Employee employee2)
+        {
+            if (employee.employeeID == employee2.employeeID)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public static bool operator !=(Employee employee, Employee employee2)
+        {
+            if (employee.employeeID != employee2.employeeID)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

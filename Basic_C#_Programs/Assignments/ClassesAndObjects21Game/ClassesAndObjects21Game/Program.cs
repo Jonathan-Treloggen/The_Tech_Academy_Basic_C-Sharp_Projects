@@ -17,12 +17,8 @@ namespace ClassesAndObjects21Game
             player.Name = "Jon";
             // SAME AS game = game + player
             game += player;
-            Console.WriteLine(player.Name);
-            Console.ReadLine();
             game -= player;
 
-            Console.WriteLine(player.Name);
-            Console.ReadLine();
             // DATA TYPE DECK WITH VARIABLE NAMED deck THIS ALSO INSTANTIATES THE OBJECT
             Deck deck = new Deck(); 
             deck.Shuffle(8);
