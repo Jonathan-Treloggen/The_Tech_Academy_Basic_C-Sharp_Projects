@@ -11,14 +11,6 @@ namespace ClassesAndObjects21Game
     {
         static void Main(string[] args)
         {
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Jon";
-            // SAME AS game = game + player
-            game += player;
-            game -= player;
-
             // DATA TYPE DECK WITH VARIABLE NAMED deck THIS ALSO INSTANTIATES THE OBJECT
             Deck deck = new Deck(); 
             deck.Shuffle(8);
