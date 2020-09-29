@@ -15,27 +15,15 @@ namespace ClassesAndObjects21Game
             // MAKES AN EMPTY LIST WE WILL BE STORING CARDS FROM LOOP
             Cards = new List<Card>();
 
-            // MAKES LIST WITH VALUES
-            List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" };
-            List<string> Faces = new List<string>()
+            // LOOPING THROUGH BOTH Face AND Suit TO MAKE A DECK OF CARDS
+            for (int i = 0; i < 13; i++)
             {
-                "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack",
-                "Queen", "King", "Ace"
-            };
-
-            // NEW VARIABLE ASSIGNED IN Faces LIST ABOVE
-            foreach (string face in Faces)
-            {
-                foreach (string suit in Suits)
+                for (int j = 0; j < 4; j++)
                 {
-                    // MAKEING NEW INDIVIDUAL card EACH LOOP ALSO IS REFERENCED IN THE MAIN PROGRAM FOREACH LOOP
                     Card card = new Card();
-
-                    // NEW INDIVIDUAL card LIST REFERENCES THE LIST ABOVE Suits & Faces WITCH IS NOW EQUAL TO VARIABLE suits & faces CREATED IN THE FOREACH LOOP
-                    card.Suit = suit;
-                    card.Face = face;
-
-                    // ADDS CARD TO Cards list
+                    // j AND i ARE REPERSENTING THE INDEX OR PLACMENT WITHIN THE enums VALUE IN Cards HENCE THE Card LIST REFERENCE
+                    card.Face = (Face)i;
+                    card.Suit = (Suit)j;
                     Cards.Add(card);
                 }
             }
