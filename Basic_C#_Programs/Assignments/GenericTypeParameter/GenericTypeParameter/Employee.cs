@@ -8,12 +8,6 @@ namespace GenericTypeParameter
 {
     public class Employee<T>
     {
-
-        public List<T> things { get; set; }
-
-        public void printAll()
-        {
-            Console.WriteLine(things);
-        }
+        public List<T> things { get; set; } 
     }
 }
