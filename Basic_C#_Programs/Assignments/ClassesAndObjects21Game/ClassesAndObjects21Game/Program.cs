@@ -12,15 +12,24 @@ namespace ClassesAndObjects21Game
         static void Main(string[] args)
         {
             // DATA TYPE DECK WITH VARIABLE NAMED deck THIS ALSO INSTANTIATES THE OBJECT
-            Deck deck = new Deck(); 
-            deck.Shuffle(8);
+            Deck deck = new Deck();
 
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
+            int count = deck.Cards.Count(x => x.Face == Face.Ace);
 
-            Console.WriteLine(deck.Cards.Count);
+            List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
+
+            List<int> numberList = new List<int>() { 1, 2, 3, 454, 526 };
+
+            int sum = numberList.Sum();
+            Console.WriteLine(sum);
+            //deck.Shuffle(8);
+
+            //foreach (Card card in deck.Cards)
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);
+            //}
+
+            //Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
         }       
     }
