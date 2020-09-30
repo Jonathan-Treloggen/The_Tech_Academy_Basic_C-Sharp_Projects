@@ -29,15 +29,22 @@ namespace LambdaExpression
                 if (employee.FirstName == "Joe")
                 {
                     JoesList.Add(employee);
-                    Console.WriteLine(JoesList);
+                    Console.WriteLine(employee.FirstName);
                 }
             }
 
-            List<Employee> TrueJoesList = Employees.Where(x => x.FirstName == "Joel").ToList();
+            List<Employee> TrueJoesList = Employees.Where(x => x.FirstName == "Joe").ToList();
 
             foreach (Employee Joes in TrueJoesList)
             {
                 Console.WriteLine(Joes.FirstName);
+            }
+
+            List<Employee> highID = Employees.Where(x => x.ID > 5).ToList();
+
+            foreach (Employee hiID in highID)
+            {
+                Console.WriteLine(hiID.ID);
             }
 
             Console.ReadLine();
