@@ -10,7 +10,7 @@ namespace ClassesAndObjects21Game
     {
         public List<Player> Players { get; set; }
         public string Name { get; set; }
-        public string Dealer { get; set; }
+        public Dictionary<Player, int> Bets { get; set; }
 
         // ABSTRACT METHOD MUST BE PUT IN THE INHERITANCE CLASS AND DEFINED THEIR AS WELL
         public abstract void Play();

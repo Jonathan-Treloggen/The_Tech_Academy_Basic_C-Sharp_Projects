@@ -51,7 +51,9 @@
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwentyOneDealer.cs" />
     <Compile Include="TwentyOneGame.cs" />
+    <Compile Include="TwentyOneRules.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

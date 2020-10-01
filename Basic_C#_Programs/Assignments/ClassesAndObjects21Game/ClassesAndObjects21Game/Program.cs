@@ -11,25 +11,26 @@ namespace ClassesAndObjects21Game
     {
         static void Main(string[] args)
         {
-            // DATA TYPE DECK WITH VARIABLE NAMED deck THIS ALSO INSTANTIATES THE OBJECT
-            Deck deck = new Deck();
-
-            int count = deck.Cards.Count(x => x.Face == Face.Ace);
-
-            List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
-
-            List<int> numberList = new List<int>() { 1, 2, 3, 454, 526 };
-
-            int sum = numberList.Sum();
-            Console.WriteLine(sum);
-            //deck.Shuffle(8);
-
-            //foreach (Card card in deck.Cards)
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);
-            //}
-
-            //Console.WriteLine(deck.Cards.Count);
+            Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
+            string playersName = Console.ReadLine();
+            Console.WriteLine("And how much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playersName);
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes" || answer == "ya" || answer == "yaeh" || answer == "y")
+            {
+                Player player = new Player(playersName, bank);
+                Game game = new TwentyOneGame();
+                game += player;
+                player.isActivePlaying = true;
+                while (player.isActivePlaying && player.Balance > 0)
+                {
+                    game.Play();
+                }
+                game -= player;
+                Console.WriteLine("Thank you for playing!");
+            }
+            Console.WriteLine("Feel free to look around the casino. Bye for now.");
             Console.ReadLine();
         }       
     }
