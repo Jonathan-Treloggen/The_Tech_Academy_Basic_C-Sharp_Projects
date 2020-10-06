@@ -1,0 +1,7 @@
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\DateAndTime\DateAndTime\bin\Debug\DateAndTime.exe.config
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\DateAndTime\DateAndTime\bin\Debug\DateAndTime.exe
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\DateAndTime\DateAndTime\bin\Debug\DateAndTime.pdb
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\DateAndTime\DateAndTime\obj\Debug\DateAndTime.csprojAssemblyReference.cache
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\DateAndTime\DateAndTime\obj\Debug\DateAndTime.csproj.CoreCompileInputs.cache
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\DateAndTime\DateAndTime\obj\Debug\DateAndTime.exe
+C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\DateAndTime\DateAndTime\obj\Debug\DateAndTime.pdb

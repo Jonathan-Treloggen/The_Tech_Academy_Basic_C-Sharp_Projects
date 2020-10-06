@@ -20,6 +20,7 @@ namespace ClassesAndObjects21Game
             Console.WriteLine(card);
             using (StreamWriter file = new StreamWriter(@"C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\Basic_C#_Programs\Assignments\ClassesAndObjects21Game\logs\log.txt", true))
             {
+                file.WriteLine(DateTime.Now);
                 file.WriteLine(card);
             }
             Deck.Cards.RemoveAt(0);
