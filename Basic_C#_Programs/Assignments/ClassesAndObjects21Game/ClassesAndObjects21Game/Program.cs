@@ -14,8 +14,16 @@ namespace ClassesAndObjects21Game
 
             Console.WriteLine("Welcome to {0}. Let's start by telling me your name.", casinoName);
             string playersName = Console.ReadLine();
-            Console.WriteLine("And how much money did you bring today?");
-            int bank = Convert.ToInt32(Console.ReadLine());
+
+            bool validAnswer = false;
+            int bank = 0;
+            while(!validAnswer)
+            {
+                Console.WriteLine("And how much money did you bring with you today");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank);
+                if (!validAnswer) Console.WriteLine("Please enter digits only, with no decimals.");
+            }
+            
             Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playersName);
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "ya" || answer == "yeah" || answer == "y")
@@ -31,7 +39,22 @@ namespace ClassesAndObjects21Game
                 player.isActivePlaying = true;
                 while (player.isActivePlaying && player.Balance > 0)
                 {
-                    game.Play();
+                    try
+                    {
+                        game.Play();
+                    }
+                    catch (FraudException)
+                    {
+                        Console.WriteLine("Security! Kick this person out.");
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("An error occured. Please contact you System Administrator.");
+                        Console.ReadLine();
+                        return;
+                    }
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing!");
