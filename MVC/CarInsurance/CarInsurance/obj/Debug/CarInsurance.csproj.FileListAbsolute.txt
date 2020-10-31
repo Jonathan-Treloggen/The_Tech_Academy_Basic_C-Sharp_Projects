@@ -80,6 +80,7 @@ C:\Users\jonat\source\repos\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csp
 C:\Users\jonat\source\repos\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CopyComplete
 C:\Users\jonat\source\repos\CarInsurance\CarInsurance\obj\Debug\CarInsurance.dll
 C:\Users\jonat\source\repos\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
+C:\Users\jonat\source\repos\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csprojAssemblyReference.cache
 C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\MVC\CarInsurance\CarInsurance\bin\CarInsurance.dll.config
 C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\MVC\CarInsurance\CarInsurance\bin\CarInsurance.dll
 C:\Users\jonat\OneDrive\Desktop\Repository's\The_Tech_Academy_Basic_C-Sharp_Projects\MVC\CarInsurance\CarInsurance\bin\CarInsurance.pdb
