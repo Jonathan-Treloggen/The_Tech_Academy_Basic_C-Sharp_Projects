@@ -16,7 +16,7 @@ namespace Abstract
 
         public void Quit()
         {
-            Console.WriteLine("Current satic: Has quit");
+            Console.WriteLine("\nCurrent satic: \nHas quit");
         }
     }
 }
