@@ -17,9 +17,9 @@ The Website takes the user's information and calculates a quote based on busines
 On top of that theirs an admin page that lets you view all quotes that have been issued.
 <br>
 <h3>21 Game</h3>
-This was a console application of the card game 21. I coded a multi class library that could  
+This was a console application of the card game 21. I coded a multi class library that could be  
 <br>
-be referenced in other casino games, beside the 21. Was coded entirely in C#. The assignment
+referenced in other casino games, beside the 21. Was coded entirely in C#. The assignment
 <br>
 started out complex, but by the time it was finished, I understanding the ins and outs of 
 <br>
