@@ -19,8 +19,8 @@ On top of that theirs an admin page that lets you view all quotes that have been
 <h3>21 Game</h3>
 This was a console application of the card game 21. I coded a multi class library that could  
 <br>
-be referenced in multiple casino games, as well as the game 21, which I was worked on. Coded  
+be referenced in other casino games, beside the game 21. Coded it entirely in C#. The 
 <br>
-it entirely in C#. The assignment started out complex, but by the time it was finished I 
+assignment started out complex, but by the time it was finished I understanding the ins
 <br>
-understanding the ins and outs of this program.
+and outs of this program.
