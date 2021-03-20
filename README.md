@@ -17,8 +17,10 @@ The Website takes the user's information and calculates a quote based on busines
 On top of that theirs an admin page that lets you view all quotes that have been issued.
 <br>
 <h3>21 Game</h3>
-This is a Console application game of 21 that fully functional. This assignment was complex
+This was a console application of the card game 21. I coded a multi class library that could be  
 <br>
-at first but when it was completed, I had a better understanding of how it all worked.
+referenced in other casino games, besides 21. Was coded entirely in C#. This assignment started 
 <br>
-I had a great time with this assignment.
+out complex, but by the time it was finished, I understanding the ins and outs of this program.
+
+
